@@ -1,0 +1,178 @@
+[
+{
+  "model": "folders.folderaccess",
+  "pk": 1,
+  "fields": {
+    "folder": 1,
+    "user": 6,
+    "access_level": "ADMIN",
+    "granted_at": "2025-01-07T12:47:56.448Z",
+    "granted_by": 6
+  }
+},
+{
+  "model": "folders.folderaccess",
+  "pk": 2,
+  "fields": {
+    "folder": 2,
+    "user": 6,
+    "access_level": "ADMIN",
+    "granted_at": "2025-01-07T12:47:56.452Z",
+    "granted_by": 6
+  }
+},
+{
+  "model": "folders.folderaccess",
+  "pk": 3,
+  "fields": {
+    "folder": 3,
+    "user": 6,
+    "access_level": "ADMIN",
+    "granted_at": "2025-01-07T12:47:56.455Z",
+    "granted_by": 6
+  }
+},
+{
+  "model": "folders.folderaccess",
+  "pk": 4,
+  "fields": {
+    "folder": 4,
+    "user": 6,
+    "access_level": "ADMIN",
+    "granted_at": "2025-01-07T12:47:56.458Z",
+    "granted_by": 6
+  }
+},
+{
+  "model": "folders.folderaccess",
+  "pk": 5,
+  "fields": {
+    "folder": 5,
+    "user": 6,
+    "access_level": "ADMIN",
+    "granted_at": "2025-01-07T12:47:56.460Z",
+    "granted_by": 6
+  }
+},
+{
+  "model": "folders.folderaccess",
+  "pk": 6,
+  "fields": {
+    "folder": 6,
+    "user": 6,
+    "access_level": "ADMIN",
+    "granted_at": "2025-01-07T12:47:56.463Z",
+    "granted_by": 6
+  }
+},
+{
+  "model": "folders.folderaccess",
+  "pk": 7,
+  "fields": {
+    "folder": 7,
+    "user": 6,
+    "access_level": "ADMIN",
+    "granted_at": "2025-01-07T12:47:56.466Z",
+    "granted_by": 6
+  }
+},
+{
+  "model": "folders.folderaccess",
+  "pk": 8,
+  "fields": {
+    "folder": 8,
+    "user": 6,
+    "access_level": "ADMIN",
+    "granted_at": "2025-01-07T12:47:56.468Z",
+    "granted_by": 6
+  }
+},
+{
+  "model": "folders.folderaccess",
+  "pk": 9,
+  "fields": {
+    "folder": 9,
+    "user": 6,
+    "access_level": "ADMIN",
+    "granted_at": "2025-01-07T14:44:54.336Z",
+    "granted_by": 6
+  }
+},
+{
+  "model": "folders.folderaccess",
+  "pk": 10,
+  "fields": {
+    "folder": 10,
+    "user": 6,
+    "access_level": "ADMIN",
+    "granted_at": "2025-01-07T14:44:54.339Z",
+    "granted_by": 6
+  }
+},
+{
+  "model": "folders.folderaccess",
+  "pk": 11,
+  "fields": {
+    "folder": 11,
+    "user": 6,
+    "access_level": "ADMIN",
+    "granted_at": "2025-01-07T14:44:54.342Z",
+    "granted_by": 6
+  }
+},
+{
+  "model": "folders.folderaccess",
+  "pk": 12,
+  "fields": {
+    "folder": 12,
+    "user": 6,
+    "access_level": "ADMIN",
+    "granted_at": "2025-01-07T14:44:54.344Z",
+    "granted_by": 6
+  }
+},
+{
+  "model": "folders.folderaccess",
+  "pk": 13,
+  "fields": {
+    "folder": 13,
+    "user": 6,
+    "access_level": "ADMIN",
+    "granted_at": "2025-01-07T14:44:54.347Z",
+    "granted_by": 6
+  }
+},
+{
+  "model": "folders.folderaccess",
+  "pk": 14,
+  "fields": {
+    "folder": 14,
+    "user": 6,
+    "access_level": "ADMIN",
+    "granted_at": "2025-01-07T14:44:54.350Z",
+    "granted_by": 6
+  }
+},
+{
+  "model": "folders.folderaccess",
+  "pk": 15,
+  "fields": {
+    "folder": 15,
+    "user": 6,
+    "access_level": "ADMIN",
+    "granted_at": "2025-01-07T14:44:54.352Z",
+    "granted_by": 6
+  }
+},
+{
+  "model": "folders.folderaccess",
+  "pk": 16,
+  "fields": {
+    "folder": 16,
+    "user": 6,
+    "access_level": "ADMIN",
+    "granted_at": "2025-01-07T14:44:54.355Z",
+    "granted_by": 6
+  }
+}
+]

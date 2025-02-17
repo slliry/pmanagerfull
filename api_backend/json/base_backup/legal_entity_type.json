@@ -1,0 +1,44 @@
+[
+{
+  "model": "accounts.legalentitytype",
+  "pk": 1,
+  "fields": {
+    "name": "Общество с ограниченной ответственностью (ООО)"
+  }
+},
+{
+  "model": "accounts.legalentitytype",
+  "pk": 2,
+  "fields": {
+    "name": "Акционерное общество (АО)"
+  }
+},
+{
+  "model": "accounts.legalentitytype",
+  "pk": 3,
+  "fields": {
+    "name": "Производственный кооператив"
+  }
+},
+{
+  "model": "accounts.legalentitytype",
+  "pk": 4,
+  "fields": {
+    "name": "Индивидуальный предприниматель (ИП)"
+  }
+},
+{
+  "model": "accounts.legalentitytype",
+  "pk": 5,
+  "fields": {
+    "name": "Саморегулируемые организации (СРО)"
+  }
+},
+{
+  "model": "accounts.legalentitytype",
+  "pk": 6,
+  "fields": {
+    "name": "Государственное или муниципальное унитарное предприятие (ГУП или МУП)"
+  }
+}
+]

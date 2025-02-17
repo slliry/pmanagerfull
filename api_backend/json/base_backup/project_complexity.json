@@ -1,0 +1,26 @@
+[
+{
+  "model": "projects.projectcomplexity",
+  "pk": 1,
+  "fields": {
+    "name": "Категория 1",
+    "description": "Cложный проект"
+  }
+},
+{
+  "model": "projects.projectcomplexity",
+  "pk": 2,
+  "fields": {
+    "name": "Категория 2",
+    "description": "Средний по уровню сложности проект"
+  }
+},
+{
+  "model": "projects.projectcomplexity",
+  "pk": 3,
+  "fields": {
+    "name": "Категория 3",
+    "description": "Легкий по уровню сложности проект"
+  }
+}
+]

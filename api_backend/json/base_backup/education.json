@@ -1,0 +1,30 @@
+[
+{
+  "model": "accounts.education",
+  "pk": 1,
+  "fields": {
+    "name": "Среднее"
+  }
+},
+{
+  "model": "accounts.education",
+  "pk": 2,
+  "fields": {
+    "name": "Среднее профессиональное"
+  }
+},
+{
+  "model": "accounts.education",
+  "pk": 3,
+  "fields": {
+    "name": "Высшее"
+  }
+},
+{
+  "model": "accounts.education",
+  "pk": 4,
+  "fields": {
+    "name": "Дополнительное"
+  }
+}
+]

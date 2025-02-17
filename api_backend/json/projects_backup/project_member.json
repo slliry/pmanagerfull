@@ -1,0 +1,42 @@
+[
+{
+  "model": "projects.projectmember",
+  "pk": 1,
+  "fields": {
+    "project": 1,
+    "member": 58,
+    "role": "Архитектор",
+    "joined_at": "2025-01-07T12:19:13.442Z"
+  }
+},
+{
+  "model": "projects.projectmember",
+  "pk": 2,
+  "fields": {
+    "project": 3,
+    "member": 58,
+    "role": "Архитектор",
+    "joined_at": "2025-01-07T14:44:30.140Z"
+  }
+},
+{
+  "model": "projects.projectmember",
+  "pk": 3,
+  "fields": {
+    "project": 3,
+    "member": 60,
+    "role": "Инженер-конструктор",
+    "joined_at": "2025-01-07T14:44:37.092Z"
+  }
+},
+{
+  "model": "projects.projectmember",
+  "pk": 4,
+  "fields": {
+    "project": 3,
+    "member": 55,
+    "role": "Инженер-конструктор",
+    "joined_at": "2025-01-07T14:44:43.615Z"
+  }
+}
+]

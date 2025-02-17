@@ -1,0 +1,51 @@
+[
+{
+  "model": "accounts.specialty",
+  "pk": 1,
+  "fields": {
+    "name": "Архитектор"
+  }
+},
+{
+  "model": "accounts.specialty",
+  "pk": 2,
+  "fields": {
+    "name": "Инженер-конструктор"
+  }
+},
+{
+  "model": "accounts.specialty",
+  "pk": 3,
+  "fields": {
+    "name": "Проектировщик ОВиК"
+  }
+},
+{
+  "model": "accounts.specialty",
+  "pk": 4,
+  "fields": {
+    "name": "Проектировщик ВК"
+  }
+},
+{
+  "model": "accounts.specialty",
+  "pk": 5,
+  "fields": {
+    "name": "Проектировщик электрических сетей"
+  }
+},
+{
+  "model": "accounts.specialty",
+  "pk": 6,
+  "fields": {
+    "name": "Проектировщик слаботочных систем"
+  }
+},
+{
+  "model": "accounts.specialty",
+  "pk": 7,
+  "fields": {
+    "name": "Проектировщик газоснабжения"
+  }
+}
+]

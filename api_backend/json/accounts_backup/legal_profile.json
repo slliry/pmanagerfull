@@ -1,0 +1,62 @@
+[
+{
+  "model": "accounts.legalprofile",
+  "pk": 3,
+  "fields": {
+    "created_at": "2024-12-26T13:33:21.763Z",
+    "user": 3,
+    "photo_company": "",
+    "company_name": "ЖК Алмаз",
+    "legal_entity_type": 1,
+    "bin": "765837564938",
+    "license": "",
+    "accreditation": "",
+    "category": 2,
+    "project": "",
+    "portfolio": "",
+    "completion_acts": "",
+    "expertise_confirmation": "",
+    "is_po": false
+  }
+},
+{
+  "model": "accounts.legalprofile",
+  "pk": 4,
+  "fields": {
+    "created_at": "2024-12-26T13:33:47.528Z",
+    "user": 4,
+    "photo_company": "",
+    "company_name": "HexNetGroup",
+    "legal_entity_type": 1,
+    "bin": "090909090909",
+    "license": "",
+    "accreditation": "",
+    "category": 1,
+    "project": "",
+    "portfolio": "",
+    "completion_acts": "",
+    "expertise_confirmation": "",
+    "is_po": true
+  }
+},
+{
+  "model": "accounts.legalprofile",
+  "pk": 63,
+  "fields": {
+    "created_at": "2024-12-30T12:11:11.124Z",
+    "user": 63,
+    "photo_company": "",
+    "company_name": null,
+    "legal_entity_type": null,
+    "bin": null,
+    "license": "",
+    "accreditation": "",
+    "category": null,
+    "project": "",
+    "portfolio": "",
+    "completion_acts": "",
+    "expertise_confirmation": "",
+    "is_po": false
+  }
+}
+]

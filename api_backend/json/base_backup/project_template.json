@@ -1,0 +1,10 @@
+[
+{
+  "model": "projects.projecttemplate",
+  "pk": 1,
+  "fields": {
+    "name": "График производства работ",
+    "description": ""
+  }
+}
+]

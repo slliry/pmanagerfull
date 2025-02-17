@@ -1,0 +1,332 @@
+[
+{
+  "model": "chat.message",
+  "pk": 1,
+  "fields": {
+    "chat": 4,
+    "sender": 58,
+    "content": "1",
+    "created_at": "2025-01-07T10:29:46.158Z"
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 2,
+  "fields": {
+    "chat": 4,
+    "sender": 58,
+    "content": "2",
+    "created_at": "2025-01-07T10:30:04.942Z"
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 3,
+  "fields": {
+    "chat": 4,
+    "sender": 58,
+    "content": "4",
+    "created_at": "2025-01-07T10:30:06.729Z"
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 4,
+  "fields": {
+    "chat": 4,
+    "sender": 58,
+    "content": "4",
+    "created_at": "2025-01-07T10:30:07.877Z"
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 5,
+  "fields": {
+    "chat": 4,
+    "sender": 58,
+    "content": "4",
+    "created_at": "2025-01-07T10:30:08.753Z"
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 6,
+  "fields": {
+    "chat": 4,
+    "sender": 58,
+    "content": "4",
+    "created_at": "2025-01-07T10:30:09.438Z"
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 7,
+  "fields": {
+    "chat": 4,
+    "sender": 58,
+    "content": "4",
+    "created_at": "2025-01-07T10:30:09.712Z"
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 8,
+  "fields": {
+    "chat": 4,
+    "sender": 58,
+    "content": "4",
+    "created_at": "2025-01-07T10:30:09.901Z"
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 9,
+  "fields": {
+    "chat": 4,
+    "sender": 58,
+    "content": "4",
+    "created_at": "2025-01-07T10:30:10.106Z"
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 10,
+  "fields": {
+    "chat": 4,
+    "sender": 58,
+    "content": "4",
+    "created_at": "2025-01-07T10:30:10.311Z"
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 11,
+  "fields": {
+    "chat": 4,
+    "sender": 58,
+    "content": "4",
+    "created_at": "2025-01-07T10:30:10.538Z"
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 12,
+  "fields": {
+    "chat": 4,
+    "sender": 58,
+    "content": "4",
+    "created_at": "2025-01-07T10:30:11.069Z"
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 13,
+  "fields": {
+    "chat": 4,
+    "sender": 58,
+    "content": "4",
+    "created_at": "2025-01-07T10:30:11.253Z"
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 14,
+  "fields": {
+    "chat": 4,
+    "sender": 58,
+    "content": "4",
+    "created_at": "2025-01-07T10:30:11.463Z"
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 15,
+  "fields": {
+    "chat": 4,
+    "sender": 58,
+    "content": "4",
+    "created_at": "2025-01-07T10:30:11.657Z"
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 16,
+  "fields": {
+    "chat": 4,
+    "sender": 58,
+    "content": "4",
+    "created_at": "2025-01-07T10:30:11.837Z"
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 17,
+  "fields": {
+    "chat": 4,
+    "sender": 58,
+    "content": "4",
+    "created_at": "2025-01-07T10:30:12.053Z"
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 18,
+  "fields": {
+    "chat": 4,
+    "sender": 58,
+    "content": "4",
+    "created_at": "2025-01-07T10:30:12.309Z"
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 19,
+  "fields": {
+    "chat": 4,
+    "sender": 58,
+    "content": "4",
+    "created_at": "2025-01-07T10:30:12.511Z"
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 20,
+  "fields": {
+    "chat": 4,
+    "sender": 58,
+    "content": "4",
+    "created_at": "2025-01-07T10:30:12.703Z"
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 21,
+  "fields": {
+    "chat": 4,
+    "sender": 58,
+    "content": "4",
+    "created_at": "2025-01-07T10:30:12.934Z"
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 22,
+  "fields": {
+    "chat": 4,
+    "sender": 58,
+    "content": "4",
+    "created_at": "2025-01-07T10:30:13.159Z"
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 23,
+  "fields": {
+    "chat": 4,
+    "sender": 58,
+    "content": "4",
+    "created_at": "2025-01-07T10:30:13.364Z"
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 24,
+  "fields": {
+    "chat": 4,
+    "sender": 58,
+    "content": "4",
+    "created_at": "2025-01-07T10:30:13.567Z"
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 25,
+  "fields": {
+    "chat": 4,
+    "sender": 58,
+    "content": "4",
+    "created_at": "2025-01-07T10:30:13.777Z"
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 26,
+  "fields": {
+    "chat": 4,
+    "sender": 58,
+    "content": "2",
+    "created_at": "2025-01-07T10:30:17.182Z"
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 27,
+  "fields": {
+    "chat": 4,
+    "sender": 58,
+    "content": "32",
+    "created_at": "2025-01-07T10:30:18.415Z"
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 28,
+  "fields": {
+    "chat": 4,
+    "sender": 58,
+    "content": "32",
+    "created_at": "2025-01-07T10:30:19.447Z"
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 29,
+  "fields": {
+    "chat": 4,
+    "sender": 58,
+    "content": "32",
+    "created_at": "2025-01-07T10:30:20.389Z"
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 30,
+  "fields": {
+    "chat": 4,
+    "sender": 58,
+    "content": "32",
+    "created_at": "2025-01-07T10:30:21.484Z"
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 31,
+  "fields": {
+    "chat": 4,
+    "sender": 58,
+    "content": "32",
+    "created_at": "2025-01-07T10:30:22.286Z"
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 32,
+  "fields": {
+    "chat": 5,
+    "sender": 55,
+    "content": "Привет, народ",
+    "created_at": "2025-01-07T19:49:13.735Z"
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 33,
+  "fields": {
+    "chat": 5,
+    "sender": 55,
+    "content": "Хехе",
+    "created_at": "2025-01-07T20:38:13.911Z"
+  }
+}
+]

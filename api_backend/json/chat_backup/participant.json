@@ -1,0 +1,222 @@
+[
+{
+  "model": "chat.participant",
+  "pk": 1,
+  "fields": {
+    "chat": 1,
+    "user": 6,
+    "joined_at": "2025-01-07T09:47:56.853Z",
+    "last_read_at": null
+  }
+},
+{
+  "model": "chat.participant",
+  "pk": 2,
+  "fields": {
+    "chat": 2,
+    "user": 6,
+    "joined_at": "2025-01-07T09:47:56.856Z",
+    "last_read_at": null
+  }
+},
+{
+  "model": "chat.participant",
+  "pk": 3,
+  "fields": {
+    "chat": 2,
+    "user": 4,
+    "joined_at": "2025-01-07T09:47:56.859Z",
+    "last_read_at": null
+  }
+},
+{
+  "model": "chat.participant",
+  "pk": 4,
+  "fields": {
+    "chat": 3,
+    "user": 4,
+    "joined_at": "2025-01-07T09:47:56.863Z",
+    "last_read_at": null
+  }
+},
+{
+  "model": "chat.participant",
+  "pk": 5,
+  "fields": {
+    "chat": 3,
+    "user": 3,
+    "joined_at": "2025-01-07T09:47:56.871Z",
+    "last_read_at": null
+  }
+},
+{
+  "model": "chat.participant",
+  "pk": 6,
+  "fields": {
+    "chat": 4,
+    "user": 58,
+    "joined_at": "2025-01-07T09:56:06.063Z",
+    "last_read_at": null
+  }
+},
+{
+  "model": "chat.participant",
+  "pk": 7,
+  "fields": {
+    "chat": 4,
+    "user": 6,
+    "joined_at": "2025-01-07T09:56:06.064Z",
+    "last_read_at": null
+  }
+},
+{
+  "model": "chat.participant",
+  "pk": 8,
+  "fields": {
+    "chat": 1,
+    "user": 58,
+    "joined_at": "2025-01-07T12:19:13.447Z",
+    "last_read_at": null
+  }
+},
+{
+  "model": "chat.participant",
+  "pk": 9,
+  "fields": {
+    "chat": 5,
+    "user": 6,
+    "joined_at": "2025-01-07T14:41:04.023Z",
+    "last_read_at": null
+  }
+},
+{
+  "model": "chat.participant",
+  "pk": 10,
+  "fields": {
+    "chat": 6,
+    "user": 6,
+    "joined_at": "2025-01-07T14:41:04.026Z",
+    "last_read_at": null
+  }
+},
+{
+  "model": "chat.participant",
+  "pk": 11,
+  "fields": {
+    "chat": 6,
+    "user": 4,
+    "joined_at": "2025-01-07T14:41:04.029Z",
+    "last_read_at": null
+  }
+},
+{
+  "model": "chat.participant",
+  "pk": 12,
+  "fields": {
+    "chat": 7,
+    "user": 4,
+    "joined_at": "2025-01-07T14:41:04.032Z",
+    "last_read_at": null
+  }
+},
+{
+  "model": "chat.participant",
+  "pk": 13,
+  "fields": {
+    "chat": 7,
+    "user": 3,
+    "joined_at": "2025-01-07T14:41:04.034Z",
+    "last_read_at": null
+  }
+},
+{
+  "model": "chat.participant",
+  "pk": 14,
+  "fields": {
+    "chat": 8,
+    "user": 58,
+    "joined_at": "2025-01-07T14:41:41.770Z",
+    "last_read_at": null
+  }
+},
+{
+  "model": "chat.participant",
+  "pk": 15,
+  "fields": {
+    "chat": 8,
+    "user": 6,
+    "joined_at": "2025-01-07T14:41:41.771Z",
+    "last_read_at": null
+  }
+},
+{
+  "model": "chat.participant",
+  "pk": 16,
+  "fields": {
+    "chat": 9,
+    "user": 60,
+    "joined_at": "2025-01-07T14:42:01.644Z",
+    "last_read_at": null
+  }
+},
+{
+  "model": "chat.participant",
+  "pk": 17,
+  "fields": {
+    "chat": 9,
+    "user": 6,
+    "joined_at": "2025-01-07T14:42:01.645Z",
+    "last_read_at": null
+  }
+},
+{
+  "model": "chat.participant",
+  "pk": 18,
+  "fields": {
+    "chat": 10,
+    "user": 55,
+    "joined_at": "2025-01-07T14:43:30.539Z",
+    "last_read_at": null
+  }
+},
+{
+  "model": "chat.participant",
+  "pk": 19,
+  "fields": {
+    "chat": 10,
+    "user": 6,
+    "joined_at": "2025-01-07T14:43:30.540Z",
+    "last_read_at": null
+  }
+},
+{
+  "model": "chat.participant",
+  "pk": 20,
+  "fields": {
+    "chat": 5,
+    "user": 58,
+    "joined_at": "2025-01-07T14:44:30.145Z",
+    "last_read_at": null
+  }
+},
+{
+  "model": "chat.participant",
+  "pk": 21,
+  "fields": {
+    "chat": 5,
+    "user": 60,
+    "joined_at": "2025-01-07T14:44:37.096Z",
+    "last_read_at": null
+  }
+},
+{
+  "model": "chat.participant",
+  "pk": 22,
+  "fields": {
+    "chat": 5,
+    "user": 55,
+    "joined_at": "2025-01-07T14:44:43.619Z",
+    "last_read_at": null
+  }
+}
+]

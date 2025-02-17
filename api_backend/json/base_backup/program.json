@@ -1,0 +1,23 @@
+[
+{
+  "model": "accounts.program",
+  "pk": 1,
+  "fields": {
+    "name": "Revit"
+  }
+},
+{
+  "model": "accounts.program",
+  "pk": 2,
+  "fields": {
+    "name": "AutoCAD"
+  }
+},
+{
+  "model": "accounts.program",
+  "pk": 3,
+  "fields": {
+    "name": "Twinmotion"
+  }
+}
+]

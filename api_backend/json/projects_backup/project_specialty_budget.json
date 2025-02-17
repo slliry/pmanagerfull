@@ -1,0 +1,65 @@
+[
+{
+  "model": "projects.projectspecialtybudget",
+  "pk": 1,
+  "fields": {
+    "project": 1,
+    "specialty": 1,
+    "budget": "1000.00"
+  }
+},
+{
+  "model": "projects.projectspecialtybudget",
+  "pk": 2,
+  "fields": {
+    "project": 2,
+    "specialty": 1,
+    "budget": "1000000.00"
+  }
+},
+{
+  "model": "projects.projectspecialtybudget",
+  "pk": 3,
+  "fields": {
+    "project": 2,
+    "specialty": 1,
+    "budget": "500000.00"
+  }
+},
+{
+  "model": "projects.projectspecialtybudget",
+  "pk": 4,
+  "fields": {
+    "project": 2,
+    "specialty": 3,
+    "budget": "750000.00"
+  }
+},
+{
+  "model": "projects.projectspecialtybudget",
+  "pk": 5,
+  "fields": {
+    "project": 3,
+    "specialty": 1,
+    "budget": "0.00"
+  }
+},
+{
+  "model": "projects.projectspecialtybudget",
+  "pk": 6,
+  "fields": {
+    "project": 3,
+    "specialty": 3,
+    "budget": "0.00"
+  }
+},
+{
+  "model": "projects.projectspecialtybudget",
+  "pk": 7,
+  "fields": {
+    "project": 3,
+    "specialty": 2,
+    "budget": "0.00"
+  }
+}
+]

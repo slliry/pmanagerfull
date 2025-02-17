@@ -1,0 +1,54 @@
+[
+{
+  "model": "projects.projectresponse",
+  "pk": 1,
+  "fields": {
+    "uuid": "0d154cfd-80f7-441a-bc61-e316e8c2b8e8",
+    "project": 1,
+    "specialist": 58,
+    "status": "accepted",
+    "message": "Хочу принять участие в проекте",
+    "chat": 4,
+    "created_at": "2025-01-07T09:56:06.066Z"
+  }
+},
+{
+  "model": "projects.projectresponse",
+  "pk": 2,
+  "fields": {
+    "uuid": "dc2f3b4e-2b65-4212-9182-93dbeebfdc90",
+    "project": 3,
+    "specialist": 58,
+    "status": "accepted",
+    "message": "Хочу принять участие в проекте",
+    "chat": 8,
+    "created_at": "2025-01-07T14:41:41.773Z"
+  }
+},
+{
+  "model": "projects.projectresponse",
+  "pk": 3,
+  "fields": {
+    "uuid": "a4e27176-75ea-40c1-9003-a3588ad4d723",
+    "project": 3,
+    "specialist": 60,
+    "status": "accepted",
+    "message": "Хочу принять участие в проекте",
+    "chat": 9,
+    "created_at": "2025-01-07T14:42:01.646Z"
+  }
+},
+{
+  "model": "projects.projectresponse",
+  "pk": 4,
+  "fields": {
+    "uuid": "bae0487e-066e-48d6-aa6e-75d2ff681163",
+    "project": 3,
+    "specialist": 55,
+    "status": "accepted",
+    "message": "Хочу принять участие в проекте",
+    "chat": 10,
+    "created_at": "2025-01-07T14:43:30.542Z"
+  }
+}
+]

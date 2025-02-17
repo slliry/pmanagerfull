@@ -1,0 +1,453 @@
+[
+{
+  "model": "accounts.physicalprofile",
+  "pk": 1,
+  "fields": {
+    "created_at": "2024-12-26T13:32:47.197Z",
+    "user": 1,
+    "photo": "",
+    "last_name": "Алмаз",
+    "first_name": "Жанат",
+    "middle_name": null,
+    "iin": "852147589632",
+    "phone": "87714051141",
+    "scan_of_ID": "",
+    "person_with_ID": "",
+    "specialty": 1,
+    "education": null,
+    "experience": null,
+    "is_gip": true,
+    "project_office": 4,
+    "programs": []
+  }
+},
+{
+  "model": "accounts.physicalprofile",
+  "pk": 2,
+  "fields": {
+    "created_at": "2024-12-26T13:32:51.187Z",
+    "user": 2,
+    "photo": "",
+    "last_name": null,
+    "first_name": null,
+    "middle_name": null,
+    "iin": null,
+    "phone": null,
+    "scan_of_ID": "",
+    "person_with_ID": "",
+    "specialty": null,
+    "education": null,
+    "experience": null,
+    "is_gip": false,
+    "project_office": null,
+    "programs": []
+  }
+},
+{
+  "model": "accounts.physicalprofile",
+  "pk": 5,
+  "fields": {
+    "created_at": "2024-12-26T13:34:01.937Z",
+    "user": 5,
+    "photo": "",
+    "last_name": "Петров",
+    "first_name": "Петр",
+    "middle_name": null,
+    "iin": "012121212121",
+    "phone": "87743231212",
+    "scan_of_ID": "",
+    "person_with_ID": "",
+    "specialty": 1,
+    "education": 2,
+    "experience": 2,
+    "is_gip": false,
+    "project_office": null,
+    "programs": [
+      3
+    ]
+  }
+},
+{
+  "model": "accounts.physicalprofile",
+  "pk": 6,
+  "fields": {
+    "created_at": "2024-12-26T13:34:17.346Z",
+    "user": 6,
+    "photo": "",
+    "last_name": "ГИП",
+    "first_name": "ГИП",
+    "middle_name": null,
+    "iin": "191819283458",
+    "phone": "87643234123",
+    "scan_of_ID": "",
+    "person_with_ID": "",
+    "specialty": 1,
+    "education": 2,
+    "experience": 2,
+    "is_gip": true,
+    "project_office": 4,
+    "programs": [
+      3
+    ]
+  }
+},
+{
+  "model": "accounts.physicalprofile",
+  "pk": 52,
+  "fields": {
+    "created_at": "2024-12-26T14:04:39.044Z",
+    "user": 52,
+    "photo": "",
+    "last_name": "Алмаз",
+    "first_name": "Жанат",
+    "middle_name": null,
+    "iin": "741474147236",
+    "phone": "87714051141",
+    "scan_of_ID": "",
+    "person_with_ID": "",
+    "specialty": 1,
+    "education": null,
+    "experience": null,
+    "is_gip": false,
+    "project_office": null,
+    "programs": []
+  }
+},
+{
+  "model": "accounts.physicalprofile",
+  "pk": 53,
+  "fields": {
+    "created_at": "2024-12-26T14:34:51.591Z",
+    "user": 53,
+    "photo": "",
+    "last_name": "Алмаз",
+    "first_name": "Осипов",
+    "middle_name": null,
+    "iin": "852147896589",
+    "phone": "87714051141",
+    "scan_of_ID": "",
+    "person_with_ID": "",
+    "specialty": 3,
+    "education": null,
+    "experience": null,
+    "is_gip": false,
+    "project_office": null,
+    "programs": []
+  }
+},
+{
+  "model": "accounts.physicalprofile",
+  "pk": 54,
+  "fields": {
+    "created_at": "2024-12-27T10:19:32.721Z",
+    "user": 54,
+    "photo": "",
+    "last_name": "Дё",
+    "first_name": "Данил",
+    "middle_name": "Андреевич",
+    "iin": "123456121213",
+    "phone": "87031231231",
+    "scan_of_ID": "",
+    "person_with_ID": "",
+    "specialty": 1,
+    "education": 1,
+    "experience": 2,
+    "is_gip": false,
+    "project_office": null,
+    "programs": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "accounts.physicalprofile",
+  "pk": 55,
+  "fields": {
+    "created_at": "2024-12-27T10:28:02.262Z",
+    "user": 55,
+    "photo": "physical_photos/ava.jpg",
+    "last_name": "Цой",
+    "first_name": "Виктор",
+    "middle_name": null,
+    "iin": "947380009843",
+    "phone": "87543424234",
+    "scan_of_ID": "",
+    "person_with_ID": "",
+    "specialty": 2,
+    "education": 3,
+    "experience": 3,
+    "is_gip": false,
+    "project_office": null,
+    "programs": [
+      1
+    ]
+  }
+},
+{
+  "model": "accounts.physicalprofile",
+  "pk": 56,
+  "fields": {
+    "created_at": "2024-12-27T10:50:24.717Z",
+    "user": 56,
+    "photo": "physical_photos/дэниславский.jpg",
+    "last_name": "Дё",
+    "first_name": "Дэн",
+    "middle_name": "Андреевич",
+    "iin": "123456121216",
+    "phone": "87031231232",
+    "scan_of_ID": "",
+    "person_with_ID": "",
+    "specialty": 6,
+    "education": 2,
+    "experience": 2,
+    "is_gip": false,
+    "project_office": null,
+    "programs": [
+      1,
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "accounts.physicalprofile",
+  "pk": 57,
+  "fields": {
+    "created_at": "2024-12-27T10:53:43.828Z",
+    "user": 57,
+    "photo": "physical_photos/дэниславский_ezlxe2L.jpg",
+    "last_name": "Дё",
+    "first_name": "Дэн",
+    "middle_name": "Андреевич",
+    "iin": "123456121210",
+    "phone": "87031231232",
+    "scan_of_ID": "",
+    "person_with_ID": "",
+    "specialty": 2,
+    "education": 1,
+    "experience": 3,
+    "is_gip": false,
+    "project_office": null,
+    "programs": [
+      1
+    ]
+  }
+},
+{
+  "model": "accounts.physicalprofile",
+  "pk": 58,
+  "fields": {
+    "created_at": "2024-12-27T14:11:42.086Z",
+    "user": 58,
+    "photo": "physical_photos/7309685.jpg",
+    "last_name": "Жанат",
+    "first_name": "Алмаз",
+    "middle_name": null,
+    "iin": "040130558569",
+    "phone": "87057090765",
+    "scan_of_ID": "",
+    "person_with_ID": "",
+    "specialty": 1,
+    "education": 3,
+    "experience": 2,
+    "is_gip": false,
+    "project_office": null,
+    "programs": [
+      1,
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "accounts.physicalprofile",
+  "pk": 59,
+  "fields": {
+    "created_at": "2024-12-27T14:19:20.824Z",
+    "user": 59,
+    "photo": "physical_photos/7309683.jpg",
+    "last_name": "Осипов",
+    "first_name": "Ярослав",
+    "middle_name": null,
+    "iin": "040130551356",
+    "phone": "87057090766",
+    "scan_of_ID": "",
+    "person_with_ID": "",
+    "specialty": 7,
+    "education": 3,
+    "experience": 3,
+    "is_gip": true,
+    "project_office": 4,
+    "programs": [
+      1,
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "accounts.physicalprofile",
+  "pk": 60,
+  "fields": {
+    "created_at": "2024-12-27T14:21:40.263Z",
+    "user": 60,
+    "photo": "physical_photos/7309693.jpg",
+    "last_name": "Ергали",
+    "first_name": "Арыстан",
+    "middle_name": null,
+    "iin": "040130557894",
+    "phone": "87057090758",
+    "scan_of_ID": "",
+    "person_with_ID": "",
+    "specialty": 2,
+    "education": 2,
+    "experience": 3,
+    "is_gip": false,
+    "project_office": null,
+    "programs": [
+      2
+    ]
+  }
+},
+{
+  "model": "accounts.physicalprofile",
+  "pk": 61,
+  "fields": {
+    "created_at": "2024-12-29T08:50:50.381Z",
+    "user": 61,
+    "photo": "",
+    "last_name": "Арыстан",
+    "first_name": "Ергали",
+    "middle_name": null,
+    "iin": "040813550274",
+    "phone": "+77055800468",
+    "scan_of_ID": "",
+    "person_with_ID": "",
+    "specialty": 1,
+    "education": 2,
+    "experience": 3,
+    "is_gip": false,
+    "project_office": null,
+    "programs": [
+      1,
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "accounts.physicalprofile",
+  "pk": 62,
+  "fields": {
+    "created_at": "2024-12-30T12:09:46.438Z",
+    "user": 62,
+    "photo": "",
+    "last_name": null,
+    "first_name": null,
+    "middle_name": null,
+    "iin": null,
+    "phone": null,
+    "scan_of_ID": "",
+    "person_with_ID": "",
+    "specialty": null,
+    "education": null,
+    "experience": null,
+    "is_gip": false,
+    "project_office": null,
+    "programs": []
+  }
+},
+{
+  "model": "accounts.physicalprofile",
+  "pk": 64,
+  "fields": {
+    "created_at": "2024-12-30T14:43:00.776Z",
+    "user": 64,
+    "photo": "",
+    "last_name": null,
+    "first_name": null,
+    "middle_name": null,
+    "iin": null,
+    "phone": null,
+    "scan_of_ID": "",
+    "person_with_ID": "",
+    "specialty": null,
+    "education": null,
+    "experience": null,
+    "is_gip": false,
+    "project_office": null,
+    "programs": []
+  }
+},
+{
+  "model": "accounts.physicalprofile",
+  "pk": 65,
+  "fields": {
+    "created_at": "2025-01-07T20:20:12.114Z",
+    "user": 65,
+    "photo": "",
+    "last_name": null,
+    "first_name": null,
+    "middle_name": null,
+    "iin": null,
+    "phone": null,
+    "scan_of_ID": "",
+    "person_with_ID": "",
+    "specialty": null,
+    "education": null,
+    "experience": null,
+    "is_gip": false,
+    "project_office": null,
+    "programs": []
+  }
+},
+{
+  "model": "accounts.physicalprofile",
+  "pk": 66,
+  "fields": {
+    "created_at": "2025-01-07T20:36:24.499Z",
+    "user": 66,
+    "photo": "",
+    "last_name": null,
+    "first_name": null,
+    "middle_name": null,
+    "iin": null,
+    "phone": null,
+    "scan_of_ID": "",
+    "person_with_ID": "",
+    "specialty": null,
+    "education": null,
+    "experience": null,
+    "is_gip": false,
+    "project_office": null,
+    "programs": []
+  }
+},
+{
+  "model": "accounts.physicalprofile",
+  "pk": 67,
+  "fields": {
+    "created_at": "2025-01-07T20:39:24.993Z",
+    "user": 67,
+    "photo": "",
+    "last_name": "Тест",
+    "first_name": "Тест",
+    "middle_name": "Тест",
+    "iin": "123456789324",
+    "phone": "87057090765",
+    "scan_of_ID": "",
+    "person_with_ID": "",
+    "specialty": 1,
+    "education": 3,
+    "experience": 2,
+    "is_gip": false,
+    "project_office": null,
+    "programs": [
+      1,
+      2,
+      3
+    ]
+  }
+}
+]

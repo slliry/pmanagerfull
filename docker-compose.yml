@@ -1,0 +1,153 @@
+services:
+  backend:
+    build:
+      context: ./api_backend
+      dockerfile: Dockerfile
+    container_name: django_backend_dev
+    command: >
+      sh -c "
+        python wait_for_db.py &&
+        python manage.py makemigrations &&
+        python manage.py migrate &&
+        python manage.py collectstatic --noinput &&
+        daphne -b 0.0.0.0 -p 8000 api_backend.asgi:application
+      "
+    volumes:
+      - ./api_backend:/app
+      - ./api_backend/media:/media
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
+    env_file:
+      - ./api_backend/.env
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    environment:
+      - TZ=Asia/Aqtau
+      - DJANGO_SETTINGS_MODULE=api_backend.settings
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - POSTGRES_DB=${POSTGRES_DB}
+      - POSTGRES_HOST=${POSTGRES_HOST}
+      - CELERY_BROKER_URL=redis://redis:6379/0
+      - CELERY_RESULT_BACKEND=redis://redis:6379/0
+    networks:
+      - app-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health/"]
+      interval: 300s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  db:
+    image: postgres:15-alpine
+    container_name: postgres_db_dev
+    restart: always
+    env_file:
+      - ./api_backend/.env
+    volumes:
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
+      - db_data:/var/lib/postgresql/data
+      - ./api_backend/scripts:/scripts:ro
+      - ./backups:/backups
+    networks:
+      - app-network
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "${POSTGRES_USER}"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+    environment:
+      - TZ=Asia/Aqtau
+
+  nginx:
+    image: nginx:alpine
+    container_name: nginx_server_dev
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./api_backend/staticfiles:/staticfiles
+      - ./api_backend/media:/media
+    ports:
+      - "8080:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+    networks:
+      - app-network
+
+  redis:
+    image: redis:alpine
+    container_name: redis_server_dev
+    networks:
+      - app-network
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+    restart: always
+
+  celery_worker:
+    build:
+      context: ./api_backend
+      dockerfile: Dockerfile
+    container_name: celery_worker_dev
+    command: celery -A api_backend worker --loglevel=info
+    volumes:
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
+      - ./api_backend:/app
+      - ./backups:/backups
+      - /var/run/docker.sock:/var/run/docker.sock
+    env_file:
+      - ./api_backend/.env
+    environment:
+      - TZ=Asia/Aqtau
+      - CELERY_BROKER_URL=redis://redis:6379/0
+      - CELERY_RESULT_BACKEND=redis://redis:6379/0
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - app-network
+
+  celery_beat:
+    build:
+      context: ./api_backend
+      dockerfile: Dockerfile
+    container_name: celery_beat_dev
+    command: celery -A api_backend beat -l INFO
+    volumes:
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
+      - ./api_backend:/app
+      - celerybeat_data:/app/celerybeat
+    env_file:
+      - ./api_backend/.env
+    environment:
+      - TZ=Asia/Aqtau
+      - CELERY_BROKER_URL=redis://redis:6379/0
+      - CELERY_RESULT_BACKEND=redis://redis:6379/0
+      - CELERYBEAT_SCHEDULE_FILENAME=/app/celerybeat/celerybeat-schedule
+    depends_on:
+      redis:
+        condition: service_healthy
+      db:
+        condition: service_healthy
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  db_data:
+  backups:
+  celerybeat_data:

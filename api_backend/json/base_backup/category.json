@@ -1,0 +1,23 @@
+[
+{
+  "model": "accounts.category",
+  "pk": 1,
+  "fields": {
+    "name": "Категория A"
+  }
+},
+{
+  "model": "accounts.category",
+  "pk": 2,
+  "fields": {
+    "name": "Категория B"
+  }
+},
+{
+  "model": "accounts.category",
+  "pk": 3,
+  "fields": {
+    "name": "Категория C"
+  }
+}
+]

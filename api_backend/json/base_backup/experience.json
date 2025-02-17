@@ -1,0 +1,23 @@
+[
+{
+  "model": "accounts.experience",
+  "pk": 1,
+  "fields": {
+    "name": "Менее 1 года"
+  }
+},
+{
+  "model": "accounts.experience",
+  "pk": 2,
+  "fields": {
+    "name": "Около 1-3 лет"
+  }
+},
+{
+  "model": "accounts.experience",
+  "pk": 3,
+  "fields": {
+    "name": "Более 5 лет"
+  }
+}
+]

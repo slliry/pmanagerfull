@@ -1,0 +1,262 @@
+[
+{
+  "model": "projects.defaultprojecttemplatetask",
+  "pk": 27,
+  "fields": {
+    "template": 1,
+    "order": "1",
+    "work_name": "Разработка Эскизного Проекта",
+    "sub_work_name": "Разработка Эскизного Проекта"
+  }
+},
+{
+  "model": "projects.defaultprojecttemplatetask",
+  "pk": 28,
+  "fields": {
+    "template": 1,
+    "order": "1.1",
+    "work_name": "Разработка ЭП",
+    "sub_work_name": "Разработка Эскизного Проекта"
+  }
+},
+{
+  "model": "projects.defaultprojecttemplatetask",
+  "pk": 29,
+  "fields": {
+    "template": 1,
+    "order": "1.1.1",
+    "work_name": "Разработка планировочных решений",
+    "sub_work_name": "Разработка Эскизного Проекта"
+  }
+},
+{
+  "model": "projects.defaultprojecttemplatetask",
+  "pk": 30,
+  "fields": {
+    "template": 1,
+    "order": "1.1.2",
+    "work_name": "Согласование планировочных решений с Заказчиком",
+    "sub_work_name": "Разработка Эскизного Проекта"
+  }
+},
+{
+  "model": "projects.defaultprojecttemplatetask",
+  "pk": 31,
+  "fields": {
+    "template": 1,
+    "order": "1.1.3",
+    "work_name": "Разработка фасадных решений",
+    "sub_work_name": "Разработка Эскизного Проекта"
+  }
+},
+{
+  "model": "projects.defaultprojecttemplatetask",
+  "pk": 32,
+  "fields": {
+    "template": 1,
+    "order": "1.1.4",
+    "work_name": "Генеральный план",
+    "sub_work_name": "Разработка Эскизного Проекта"
+  }
+},
+{
+  "model": "projects.defaultprojecttemplatetask",
+  "pk": 33,
+  "fields": {
+    "template": 1,
+    "order": "1.1.5",
+    "work_name": "Оформление",
+    "sub_work_name": "Разработка Эскизного Проекта"
+  }
+},
+{
+  "model": "projects.defaultprojecttemplatetask",
+  "pk": 34,
+  "fields": {
+    "template": 1,
+    "order": "1.2",
+    "work_name": "Согласование ЭП с Местными органами архитектуры",
+    "sub_work_name": "Разработка Эскизного Проекта"
+  }
+},
+{
+  "model": "projects.defaultprojecttemplatetask",
+  "pk": 35,
+  "fields": {
+    "template": 1,
+    "order": "2",
+    "work_name": "Разработка рабочего проекта",
+    "sub_work_name": "Разработка рабочего проекта"
+  }
+},
+{
+  "model": "projects.defaultprojecttemplatetask",
+  "pk": 36,
+  "fields": {
+    "template": 1,
+    "order": "2.1",
+    "work_name": "Передача Заказчиком ИРД",
+    "sub_work_name": "Разработка рабочего проекта"
+  }
+},
+{
+  "model": "projects.defaultprojecttemplatetask",
+  "pk": 37,
+  "fields": {
+    "template": 1,
+    "order": "2.2",
+    "work_name": "Согласование планировочных решений с Заказчиком",
+    "sub_work_name": "Разработка рабочего проекта"
+  }
+},
+{
+  "model": "projects.defaultprojecttemplatetask",
+  "pk": 38,
+  "fields": {
+    "template": 1,
+    "order": "2.3",
+    "work_name": "Архитектурные решения",
+    "sub_work_name": "Разработка рабочего проекта"
+  }
+},
+{
+  "model": "projects.defaultprojecttemplatetask",
+  "pk": 39,
+  "fields": {
+    "template": 1,
+    "order": "2.4",
+    "work_name": "Технологические решения",
+    "sub_work_name": "Разработка рабочего проекта"
+  }
+},
+{
+  "model": "projects.defaultprojecttemplatetask",
+  "pk": 40,
+  "fields": {
+    "template": 1,
+    "order": "2.5",
+    "work_name": "Расчеты по Конструктивной части",
+    "sub_work_name": "Разработка рабочего проекта"
+  }
+},
+{
+  "model": "projects.defaultprojecttemplatetask",
+  "pk": 41,
+  "fields": {
+    "template": 1,
+    "order": "2.6",
+    "work_name": "Конструктивные решения",
+    "sub_work_name": "Разработка рабочего проекта"
+  }
+},
+{
+  "model": "projects.defaultprojecttemplatetask",
+  "pk": 42,
+  "fields": {
+    "template": 1,
+    "order": "2.7",
+    "work_name": "Металоконструктивные решения",
+    "sub_work_name": "Разработка рабочего проекта"
+  }
+},
+{
+  "model": "projects.defaultprojecttemplatetask",
+  "pk": 43,
+  "fields": {
+    "template": 1,
+    "order": "2.8",
+    "work_name": "Отопление, Вентиляция",
+    "sub_work_name": "Разработка рабочего проекта"
+  }
+},
+{
+  "model": "projects.defaultprojecttemplatetask",
+  "pk": 44,
+  "fields": {
+    "template": 1,
+    "order": "2.9",
+    "work_name": "Водоснабжение и Канализация",
+    "sub_work_name": "Разработка рабочего проекта"
+  }
+},
+{
+  "model": "projects.defaultprojecttemplatetask",
+  "pk": 45,
+  "fields": {
+    "template": 1,
+    "order": "2.10",
+    "work_name": "Электрическая часть",
+    "sub_work_name": "Разработка рабочего проекта"
+  }
+},
+{
+  "model": "projects.defaultprojecttemplatetask",
+  "pk": 46,
+  "fields": {
+    "template": 1,
+    "order": "2.11",
+    "work_name": "Слаботочные сети",
+    "sub_work_name": "Разработка рабочего проекта"
+  }
+},
+{
+  "model": "projects.defaultprojecttemplatetask",
+  "pk": 47,
+  "fields": {
+    "template": 1,
+    "order": "2.12",
+    "work_name": "Генеральный план",
+    "sub_work_name": "Разработка рабочего проекта"
+  }
+},
+{
+  "model": "projects.defaultprojecttemplatetask",
+  "pk": 48,
+  "fields": {
+    "template": 1,
+    "order": "2.13",
+    "work_name": "Общая пояснительная записка",
+    "sub_work_name": "Разработка рабочего проекта"
+  }
+},
+{
+  "model": "projects.defaultprojecttemplatetask",
+  "pk": 49,
+  "fields": {
+    "template": 1,
+    "order": "2.14",
+    "work_name": "Проект организации строительства",
+    "sub_work_name": "Разработка рабочего проекта"
+  }
+},
+{
+  "model": "projects.defaultprojecttemplatetask",
+  "pk": 50,
+  "fields": {
+    "template": 1,
+    "order": "2.15",
+    "work_name": "Сметная документация",
+    "sub_work_name": "Разработка рабочего проекта"
+  }
+},
+{
+  "model": "projects.defaultprojecttemplatetask",
+  "pk": 51,
+  "fields": {
+    "template": 1,
+    "order": "2.16",
+    "work_name": "Раздел Охрана окружающей среды",
+    "sub_work_name": "Разработка рабочего проекта"
+  }
+},
+{
+  "model": "projects.defaultprojecttemplatetask",
+  "pk": 52,
+  "fields": {
+    "template": 1,
+    "order": "2.17",
+    "work_name": "Передача ПСД Заказчику и на экспертизу",
+    "sub_work_name": "Разработка рабочего проекта"
+  }
+}
+]

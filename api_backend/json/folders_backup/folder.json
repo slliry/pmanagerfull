@@ -1,0 +1,210 @@
+[
+{
+  "model": "folders.folder",
+  "pk": 1,
+  "fields": {
+    "name": "Library",
+    "folder_type": "LIBRARY",
+    "project": 1,
+    "parent": null,
+    "created_at": "2025-01-07T12:47:56.446Z",
+    "updated_at": "2025-01-07T12:47:56.446Z",
+    "created_by": null
+  }
+},
+{
+  "model": "folders.folder",
+  "pk": 2,
+  "fields": {
+    "name": "Исходные данные",
+    "folder_type": "SOURCE",
+    "project": 1,
+    "parent": null,
+    "created_at": "2025-01-07T12:47:56.451Z",
+    "updated_at": "2025-01-07T12:47:56.451Z",
+    "created_by": null
+  }
+},
+{
+  "model": "folders.folder",
+  "pk": 3,
+  "fields": {
+    "name": "Процесс работы",
+    "folder_type": "PROCESS",
+    "project": 1,
+    "parent": null,
+    "created_at": "2025-01-07T12:47:56.454Z",
+    "updated_at": "2025-01-07T12:47:56.454Z",
+    "created_by": null
+  }
+},
+{
+  "model": "folders.folder",
+  "pk": 4,
+  "fields": {
+    "name": "Обмен заданиями",
+    "folder_type": "TASKS",
+    "project": 1,
+    "parent": null,
+    "created_at": "2025-01-07T12:47:56.456Z",
+    "updated_at": "2025-01-07T12:47:56.456Z",
+    "created_by": null
+  }
+},
+{
+  "model": "folders.folder",
+  "pk": 5,
+  "fields": {
+    "name": "Рабочие данные",
+    "folder_type": "WORKING",
+    "project": 1,
+    "parent": null,
+    "created_at": "2025-01-07T12:47:56.459Z",
+    "updated_at": "2025-01-07T12:47:56.459Z",
+    "created_by": null
+  }
+},
+{
+  "model": "folders.folder",
+  "pk": 6,
+  "fields": {
+    "name": "Опубликованные данные",
+    "folder_type": "PUBLISHED",
+    "project": 1,
+    "parent": null,
+    "created_at": "2025-01-07T12:47:56.462Z",
+    "updated_at": "2025-01-07T12:47:56.462Z",
+    "created_by": null
+  }
+},
+{
+  "model": "folders.folder",
+  "pk": 7,
+  "fields": {
+    "name": "Замечания",
+    "folder_type": "REMARKS",
+    "project": 1,
+    "parent": null,
+    "created_at": "2025-01-07T12:47:56.464Z",
+    "updated_at": "2025-01-07T12:47:56.464Z",
+    "created_by": null
+  }
+},
+{
+  "model": "folders.folder",
+  "pk": 8,
+  "fields": {
+    "name": "Ярлыки",
+    "folder_type": "SHORTCUTS",
+    "project": 1,
+    "parent": null,
+    "created_at": "2025-01-07T12:47:56.467Z",
+    "updated_at": "2025-01-07T12:47:56.467Z",
+    "created_by": null
+  }
+},
+{
+  "model": "folders.folder",
+  "pk": 9,
+  "fields": {
+    "name": "Library",
+    "folder_type": "LIBRARY",
+    "project": 3,
+    "parent": null,
+    "created_at": "2025-01-07T14:44:54.333Z",
+    "updated_at": "2025-01-07T14:44:54.333Z",
+    "created_by": null
+  }
+},
+{
+  "model": "folders.folder",
+  "pk": 10,
+  "fields": {
+    "name": "Исходные данные",
+    "folder_type": "SOURCE",
+    "project": 3,
+    "parent": null,
+    "created_at": "2025-01-07T14:44:54.338Z",
+    "updated_at": "2025-01-07T14:44:54.338Z",
+    "created_by": null
+  }
+},
+{
+  "model": "folders.folder",
+  "pk": 11,
+  "fields": {
+    "name": "Процесс работы",
+    "folder_type": "PROCESS",
+    "project": 3,
+    "parent": null,
+    "created_at": "2025-01-07T14:44:54.340Z",
+    "updated_at": "2025-01-07T14:44:54.340Z",
+    "created_by": null
+  }
+},
+{
+  "model": "folders.folder",
+  "pk": 12,
+  "fields": {
+    "name": "Обмен заданиями",
+    "folder_type": "TASKS",
+    "project": 3,
+    "parent": null,
+    "created_at": "2025-01-07T14:44:54.343Z",
+    "updated_at": "2025-01-07T14:44:54.343Z",
+    "created_by": null
+  }
+},
+{
+  "model": "folders.folder",
+  "pk": 13,
+  "fields": {
+    "name": "Рабочие данные",
+    "folder_type": "WORKING",
+    "project": 3,
+    "parent": null,
+    "created_at": "2025-01-07T14:44:54.346Z",
+    "updated_at": "2025-01-07T14:44:54.346Z",
+    "created_by": null
+  }
+},
+{
+  "model": "folders.folder",
+  "pk": 14,
+  "fields": {
+    "name": "Опубликованные данные",
+    "folder_type": "PUBLISHED",
+    "project": 3,
+    "parent": null,
+    "created_at": "2025-01-07T14:44:54.349Z",
+    "updated_at": "2025-01-07T14:44:54.349Z",
+    "created_by": null
+  }
+},
+{
+  "model": "folders.folder",
+  "pk": 15,
+  "fields": {
+    "name": "Замечания",
+    "folder_type": "REMARKS",
+    "project": 3,
+    "parent": null,
+    "created_at": "2025-01-07T14:44:54.351Z",
+    "updated_at": "2025-01-07T14:44:54.351Z",
+    "created_by": null
+  }
+},
+{
+  "model": "folders.folder",
+  "pk": 16,
+  "fields": {
+    "name": "Ярлыки",
+    "folder_type": "SHORTCUTS",
+    "project": 3,
+    "parent": null,
+    "created_at": "2025-01-07T14:44:54.354Z",
+    "updated_at": "2025-01-07T14:44:54.354Z",
+    "created_by": null
+  }
+}
+]
